@@ -101,6 +101,7 @@ h2 {
   padding-block: calc((27 / 16) * 1em);
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  max-width: calc((350 / 16) * 1em);
 }
 .card:hover {
   transform: scale(1.025);
