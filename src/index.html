@@ -9,11 +9,94 @@
       href="./images/favicon-32x32.png"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Mentor | CHALLENGE TITLE HERE</title>
+    <title>Frontend Mentor | Four card feature section</title>
   </head>
 
   <body>
-    <h1>Hello from Vite</h1>
+    <header class="header">
+      <div class="container header-container">
+        <h1>
+          <span>Reliable, efficient delivery</span>
+          <span>Powered by Technology</span>
+        </h1>
+        <p>
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
+      <!-- END container -->
+    </header>
+
+    <main class="main">
+      <div class="container main-container">
+        <div class="col">
+          <div class="card card-supervisor">
+            <div class="card__accent"></div>
+            <h2 class="card__title">Supervisor</h2>
+            <p class="card__text">
+              Monitors activity to identify project roadblocks
+            </p>
+            <img
+              class="card__image"
+              src="./images/icon-supervisor.svg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-teambuilder">
+            <div class="card__accent"></div>
+            <h2 class="card__title">Team Builder</h2>
+            <p class="card__text">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              class="card__image"
+              src="./images/icon-team-builder.svg"
+              alt=""
+            />
+          </div>
+          <div class="card card-karma">
+            <div class="card__accent"></div>
+            <h2 class="card__title">Karma</h2>
+            <p class="card__text">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <img class="card__image" src="./images/icon-karma.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-calculator">
+            <div class="card__accent"></div>
+            <h2 class="card__title">Calculator</h2>
+            <p class="card__text">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <img
+              class="card__image"
+              src="./images/icon-calculator.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- END container -->
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Your Name Here</a>.
+        </p>
+      </div>
+      <!-- END container -->
+    </footer>
 
     <script type="module" src="/main.js"></script>
   </body>
