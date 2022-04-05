@@ -1,0 +1,138 @@
+@import 'open-props/style';
+@import 'open-props/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+
+  --ff-base: 'Poppins', var(--font-sans);
+  --fs-base: calc((16 / 16) * 1rem);
+  --fw-base: var(--font-weight-4);
+  --fc-base: var(--very-dark-blue);
+
+  background-color: var(--very-light-gray);
+}
+
+body {
+  font-family: var(--ff-base);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-base);
+  color: var(--fc-base);
+}
+
+h1,
+h2 {
+  color: inherit;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  margin-inline: calc((32 / 16) * 1em);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: calc((23 / 16) * 1em);
+}
+
+/* # Header */
+.header {
+  text-align: center;
+  margin-top: calc((85 / 16) * 1em);
+  margin-bottom: calc((76 / 16) * 1em);
+  /* width: calc((311 / 16) * 1em); */
+  /* max-width: calc((540 / 16) * 1em); */
+}
+.header-container {
+  justify-items: center;
+  gap: calc((13 / 16) * 1em);
+}
+.header h1 {
+  display: grid;
+  gap: 0.25em;
+  font-size: calc((24 / 16) * 1rem);
+  font-weight: var(--font-weight-6);
+}
+.header span:first-of-type {
+  font-weight: var(--font-weight-2);
+}
+.header p {
+  font-size: calc((15 / 16) * 1rem);
+  line-height: calc(25 / 15);
+  opacity: 0.5;
+}
+
+/* # Main */
+.main-container {
+  gap: calc((23 / 16) * 1em);
+}
+@media (min-width: 1174px) {
+  .main-container {
+    display: flex;
+  }
+  .main .col:first-of-type,
+  .main .col:last-of-type {
+    justify-content: center;
+  }
+}
+.main p {
+  font-size: calc((13 / 16) * 1rem);
+  line-height: calc(23 / 13);
+  opacity: 0.5;
+}
+
+/* # Card */
+.card {
+  position: relative;
+  display: grid;
+  gap: 0.25em;
+  background-color: #ffffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  padding-inline: calc((28 / 16) * 1em);
+  padding-block: calc((27 / 16) * 1em);
+  overflow: hidden;
+}
+.card__accent {
+  position: absolute;
+  width: 100%;
+  height: calc((3 / 16) * 1em);
+}
+.card-supervisor .card__accent {
+  background-color: var(--cyan);
+}
+.card-teambuilder .card__accent {
+  background-color: var(--red);
+}
+.card-karma .card__accent {
+  background-color: var(--orange);
+}
+.card-calculator .card__accent {
+  background-color: var(--blue);
+}
+.card__title {
+  font-size: calc((22 / 16) * 1rem);
+}
+.card__text {
+  margin-bottom: calc((33 / 16) * 1em);
+}
+.card__image {
+  justify-self: end;
+}
+
+/* # Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
