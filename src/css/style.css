@@ -100,11 +100,19 @@ h2 {
   padding-inline: calc((28 / 16) * 1em);
   padding-block: calc((27 / 16) * 1em);
   overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.025);
 }
 .card__accent {
   position: absolute;
   width: 100%;
   height: calc((3 / 16) * 1em);
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover .card__accent {
+  transform: scale(10);
 }
 .card-supervisor .card__accent {
   background-color: var(--cyan);
@@ -120,12 +128,17 @@ h2 {
 }
 .card__title {
   font-size: calc((22 / 16) * 1rem);
+  z-index: 0;
 }
 .card__text {
   margin-bottom: calc((33 / 16) * 1em);
 }
 .card__image {
   justify-self: end;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover .card__image {
+  transform: scale(1.1) rotate(5deg);
 }
 
 /* # Footer */
