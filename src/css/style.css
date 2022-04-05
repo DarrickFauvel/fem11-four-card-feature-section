@@ -144,6 +144,9 @@ h2 {
 }
 
 /* # Footer */
+.footer {
+  padding-bottom: 5em;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
