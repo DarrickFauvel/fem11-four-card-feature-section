@@ -73,6 +73,7 @@ h2 {
 /* # Main */
 .main-container {
   gap: calc((23 / 16) * 1em);
+  margin-bottom: 3em;
 }
 @media (min-width: 1174px) {
   .main-container {
