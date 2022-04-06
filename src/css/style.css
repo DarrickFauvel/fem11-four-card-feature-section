@@ -95,7 +95,6 @@ p {
 .main p {
   font-size: calc((13 / 16) * 1rem);
   line-height: calc(23 / 13);
-  opacity: 0.5;
 }
 
 /* Card */
