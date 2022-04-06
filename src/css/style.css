@@ -123,16 +123,16 @@ p {
 .card:hover .card__accent {
   transform: scale(10);
 }
-.card-supervisor .card__accent {
+.card__accent--cyan {
   background-color: var(--cyan);
 }
-.card-teambuilder .card__accent {
+.card__accent--red {
   background-color: var(--red);
 }
-.card-karma .card__accent {
+.card__accent--orange {
   background-color: var(--orange);
 }
-.card-calculator .card__accent {
+.card__accent--blue {
   background-color: var(--blue);
 }
 .card__title {
