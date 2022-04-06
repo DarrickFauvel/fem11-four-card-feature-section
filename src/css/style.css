@@ -69,7 +69,7 @@ h2 {
 }
   font-weight: var(--font-weight-2);
 }
-.header p {
+.header__text {
   font-size: calc((15 / 16) * 1rem);
   line-height: calc(25 / 15);
   opacity: 0.5;
