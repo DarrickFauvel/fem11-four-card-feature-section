@@ -52,6 +52,7 @@ h2 {
   /* max-width: calc((540 / 16) * 1em); */
 }
 .header .container {
+  text-align: center;
   justify-items: center;
   gap: calc((13 / 16) * 1em);
 }
