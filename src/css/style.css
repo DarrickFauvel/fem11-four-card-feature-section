@@ -48,8 +48,6 @@ h2 {
   text-align: center;
   margin-top: calc((85 / 16) * 1em);
   margin-bottom: calc((76 / 16) * 1em);
-  /* width: calc((311 / 16) * 1em); */
-  /* max-width: calc((540 / 16) * 1em); */
 }
 .header .container {
   text-align: center;
@@ -67,6 +65,7 @@ h2 {
     font-size: calc((36 / 16) * 1rem);
   }
 }
+.header__title span:first-of-type {
   font-weight: var(--font-weight-2);
 }
 .header__text {
