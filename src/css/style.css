@@ -51,7 +51,7 @@ h2 {
   /* width: calc((311 / 16) * 1em); */
   /* max-width: calc((540 / 16) * 1em); */
 }
-.header-container {
+.header .container {
   justify-items: center;
   gap: calc((13 / 16) * 1em);
 }
