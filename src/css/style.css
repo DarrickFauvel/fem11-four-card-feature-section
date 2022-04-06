@@ -75,7 +75,6 @@ p {
 .header__text {
   font-size: calc((15 / 16) * 1rem);
   line-height: calc(25 / 15);
-  opacity: 0.5;
   max-width: calc((540 / 16) * 1em);
 }
 
