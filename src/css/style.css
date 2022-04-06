@@ -108,12 +108,10 @@ p {
   padding-inline: calc((28 / 16) * 1em);
   padding-block: calc((27 / 16) * 1em);
   overflow: hidden;
-  box-shadow: 0 0 0 1px transparent;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   max-width: calc((350 / 16) * 1em);
 }
 .card:hover {
-  box-shadow: 0 0 0 1px transparent;
   transform: scale(1.025);
 }
 .card__accent {
@@ -125,28 +123,16 @@ p {
 .card:hover .card__accent {
   transform: scale(10);
 }
-[data-card-color="cyan"]:hover {
-  box-shadow: 0 0 0 1px var(--cyan);
-}
-[data-card-color="cyan"] .card__accent {
+.card__accent--cyan {
   background-color: var(--cyan);
 }
-[data-card-color="red"]:hover {
-  box-shadow: 0 0 0 1px var(--red);
-}
-[data-card-color="red"] .card__accent {
+.card__accent--red {
   background-color: var(--red);
 }
-[data-card-color="orange"]:hover {
-  box-shadow: 0 0 0 1px var(--orange);
-}
-[data-card-color="orange"] .card__accent {
+.card__accent--orange {
   background-color: var(--orange);
 }
-[data-card-color="blue"]:hover {
-  box-shadow: 0 0 0 1px var(--blue);
-}
-[data-card-color="blue"] .card__accent {
+.card__accent--blue {
   background-color: var(--blue);
 }
 .card__title {
