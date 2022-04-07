@@ -65,11 +65,13 @@ h2 {
   gap: calc((3 / 16) * 1em);
   font-size: calc((24 / 16) * 1rem);
   font-weight: var(--font-weight-6);
+  letter-spacing: calc((0.17 / 16) * 1em);
 }
 
 @media (min-width: 1175px) {
   .header__title {
     font-size: calc((36 / 16) * 1rem);
+    letter-spacing: calc((0.25 / 16) * 1em);
   }
 }
 
