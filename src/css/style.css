@@ -201,6 +201,7 @@ h2 {
   display: grid;
   align-items: flex-end;
   height: var(--size-10);
+  width: 100%;
 }
 
 .attribution {
