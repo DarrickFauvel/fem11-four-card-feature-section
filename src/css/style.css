@@ -60,6 +60,12 @@ h2 {
   gap: calc((13 / 16) * 1em);
 }
 
+@media (min-width: 1175px) {
+  .header .container {
+    gap: calc((16 / 16) * 1em);
+  }
+}
+
 .header__title {
   display: grid;
   gap: calc((3 / 16) * 1em);
