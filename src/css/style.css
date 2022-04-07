@@ -198,16 +198,14 @@ h2 {
 
 /* Footer */
 .footer {
-  display: grid;
-  align-items: flex-end;
   height: var(--size-10);
-  width: 100%;
 }
 
 .attribution {
+  display: block;
   font-size: calc((11 / 16) * 1rem);
   text-align: center;
-  padding-block-end: var(--size-4);
+  padding-block-start: var(--size-8);
 }
 
 .attribution a {
