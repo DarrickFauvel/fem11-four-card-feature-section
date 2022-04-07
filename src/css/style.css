@@ -201,11 +201,15 @@ h2 {
   height: var(--size-10);
 }
 
+.footer .container {
+  display: block;
+}
+
 .attribution {
   font-size: calc((11 / 16) * 1rem);
   text-align: center;
   padding-block-start: var(--size-8);
-  max-inline-size: none;
+  margin-inline: auto;
 }
 
 .attribution a {
