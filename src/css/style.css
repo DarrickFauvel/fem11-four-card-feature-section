@@ -92,7 +92,6 @@ h2 {
 /* Cards */
 .cards {
   padding-block-start: calc((64 / 16) * 1em);
-  /* padding-block-end: calc((80 / 16) * 1em); */
 }
 .cards .container {
   gap: calc((23 / 16) * 1em);
@@ -199,13 +198,15 @@ h2 {
 
 /* Footer */
 .footer {
-  display: none;
-  padding-block-end: var(--size-7);
+  display: grid;
+  align-items: flex-end;
+  height: var(--size-10);
 }
 
 .attribution {
   font-size: calc((11 / 16) * 1rem);
   text-align: center;
+  padding-block-end: var(--size-4);
 }
 
 .attribution a {
