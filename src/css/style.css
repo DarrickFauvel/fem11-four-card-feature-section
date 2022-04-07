@@ -91,7 +91,7 @@ h2 {
 
 /* Cards */
 .cards {
-  padding-block-start: calc((65 / 16) * 1em);
+  padding-block-start: calc((64 / 16) * 1em);
   /* padding-block-end: calc((80 / 16) * 1em); */
 }
 .cards .container {
