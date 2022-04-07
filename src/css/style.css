@@ -47,6 +47,11 @@ p {
   gap: calc((23 / 16) * 1em);
 }
 
+/* Feature section */
+.feature-section p {
+  opacity: 0.5;
+}
+
 /* Header */
 .header {
   text-align: center;
