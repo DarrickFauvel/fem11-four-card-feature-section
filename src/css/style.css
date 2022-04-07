@@ -98,6 +98,10 @@ h2 {
     gap: calc((30 / 16) * 1em);
   }
 
+  .cards .col:nth-of-type(2) {
+    gap: calc((30 / 16) * 1em);
+  }
+
   .cards .col:first-of-type,
   .cards .col:last-of-type {
     justify-content: center;
