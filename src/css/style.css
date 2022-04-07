@@ -136,6 +136,8 @@ h2 {
 
 @media (min-width: 1175px) {
   .card {
+    padding-inline: calc((32 / 16) * 1em);
+    padding-block: calc((32 / 16) * 1em);
     gap: calc((6 / 16) * 1em);
   }
 }
