@@ -202,11 +202,10 @@ h2 {
 }
 
 .attribution {
-  display: block;
   font-size: calc((11 / 16) * 1rem);
   text-align: center;
   padding-block-start: var(--size-8);
-  width: max-content;
+  max-inline-size: none;
 }
 
 .attribution a {
