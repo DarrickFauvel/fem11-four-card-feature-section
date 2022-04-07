@@ -57,12 +57,12 @@ h2 {
 .header .container {
   text-align: center;
   justify-items: center;
-  gap: calc((14 / 16) * 1em);
+  gap: calc((13 / 16) * 1em);
 }
 
 @media (min-width: 1175px) {
   .header .container {
-    gap: calc((16 / 16) * 1em);
+    gap: calc((18 / 16) * 1em);
   }
 }
 
