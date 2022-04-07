@@ -84,8 +84,8 @@ h2 {
 }
 
 .header__text {
-  font-size: calc((15 / 16) * 1rem);
-  line-height: calc(25 / 15);
+  font-size: calc((16 / 16) * 1rem);
+  line-height: calc(25 / 16);
   max-width: calc((540 / 16) * 1em);
 }
 
