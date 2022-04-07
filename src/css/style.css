@@ -51,7 +51,7 @@ h2 {
 /* Header */
 .header {
   text-align: center;
-  margin-block-start: calc((84 / 16) * 1em);
+  margin-block-start: calc((83 / 16) * 1em);
 }
 
 .header .container {
