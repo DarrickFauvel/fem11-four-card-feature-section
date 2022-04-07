@@ -149,7 +149,7 @@ h2 {
 .card__accent {
   position: absolute;
   width: 100%;
-  height: calc((3 / 16) * 1em);
+  height: calc((4 / 16) * 1em);
   transition: transform 0.3s ease-in-out;
 }
 
