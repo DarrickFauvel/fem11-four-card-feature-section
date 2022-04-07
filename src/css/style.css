@@ -206,6 +206,7 @@ h2 {
   font-size: calc((11 / 16) * 1rem);
   text-align: center;
   padding-block-start: var(--size-8);
+  width: max-content;
 }
 
 .attribution a {
