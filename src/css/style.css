@@ -174,7 +174,7 @@ h2 {
 }
 
 .card__title {
-  font-size: calc((22 / 16) * 1rem);
+  font-size: calc((20 / 16) * 1rem);
   z-index: 0;
 }
 
