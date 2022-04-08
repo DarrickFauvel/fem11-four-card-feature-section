@@ -91,7 +91,7 @@ h2 {
 
 /* Cards */
 .cards {
-  padding-block-start: calc((64 / 16) * 1em);
+  padding-block-start: var(--size-9);
 }
 .cards .container {
   gap: calc((23 / 16) * 1em);
@@ -135,8 +135,8 @@ h2 {
 
 @media (min-width: 1175px) {
   .card {
-    padding-inline: calc((32 / 16) * 1em);
-    padding-block: calc((32 / 16) * 1em);
+    padding-inline: var(--size-7);
+    padding-block: var(--size-7);
     gap: calc((10 / 16) * 1em);
   }
 }
