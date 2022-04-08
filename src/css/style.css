@@ -16,6 +16,8 @@
   --fw-base: var(--font-weight-4);
   --fc-base: var(--very-dark-blue);
 
+  --transition-1: transform 0.3s ease-in-out;
+
   background-color: var(--very-light-gray);
 }
 
@@ -130,7 +132,7 @@ h2 {
   padding-block: calc((27 / 16) * 1em);
   overflow: hidden;
   max-width: calc((350 / 16) * 1em);
-  transition: transform 0.3s ease-in-out;
+  transition: var(--transition-1);
 }
 
 @media (min-width: 1175px) {
@@ -142,18 +144,18 @@ h2 {
 }
 
 .card:hover {
-  transform: rotate(-2deg);
+  transform: translateY(-5px);
 }
 
 .card__accent {
   position: absolute;
   width: 100%;
   height: calc((4 / 16) * 1em);
-  transition: transform 0.3s ease-in-out;
+  transition: var(--transition-1);
 }
 
 .card:hover .card__accent {
-  transform: scale(12) rotate(3deg);
+  transform: scale(8);
 }
 
 .card__accent--cyan {
@@ -189,11 +191,11 @@ h2 {
 
 .card__image {
   justify-self: end;
-  transition: transform 0.3s ease-in-out;
+  transition: var(--transition-1);
 }
 
 .card:hover .card__image {
-  transform: scale(1.1) rotate(3deg);
+  transform: scale(1.2);
 }
 
 /* Footer */
