@@ -174,13 +174,13 @@ h2 {
   background-color: var(--blue);
 }
 
-.card__content {
+/* .card__content {
   transition: var(--transition-1);
 }
 
 .card:hover .card__content {
   transform: translateY(10px);
-}
+} */
 
 .card__title {
   font-size: calc((20 / 16) * 1rem);
